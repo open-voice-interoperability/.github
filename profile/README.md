@@ -20,4 +20,4 @@ Open Voice Interoperability plans to address issues like the discovery and locat
 ## How Can I Get Involved ##
 The initiative invites participation from developers, researchers, and organizations interested in shaping the future of conversational AI. Explore our sandbox software, comment on the specifications and most importantly, try out the specifications with your conversational assistants. 
 
-
+For more details, see our [FAQ](https://github.com/open-voice-interoperability/.github/blob/main/profile/FAQ.md)
