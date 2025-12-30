@@ -18,7 +18,7 @@ We advocate for developing interoperability protocols through an open, transpare
 Open Voice Interoperability plans to address issues like the discovery and location of conversational agents and to address important security and privacy concerns. The roadmap also includes investigating how a universal API can simplify development and ensure consistency across services.
 
 ## How Can I Get Involved ##
-The initiative invites participation from developers, researchers, and organizations interested in shaping the future of conversational AI. Explore our sandbox software, comment on the specifications and most importantly, try out the specifications with your conversational assistants. Some excellent developer resources are available on the independent website (https://openfloor.dev).
+The initiative invites participation from developers, researchers, and organizations interested in shaping the future of conversational AI. Explore our sandbox software, comment on the specifications and most importantly, try out the specifications with your conversational assistants. Some excellent developer resources are available on the independent website (https://openfloor.dev). Questions about the project and software can be added to the discussions section of this project (https://github.com/orgs/open-voice-interoperability/discussions), or add an issue or pull request in the specific repository.
 
 ## Repositories ##
 Please check out our project repositories, listed below, for information about our specifications, background documentation, our sandbox implementation, and other implementation examples.
