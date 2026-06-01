@@ -1,7 +1,7 @@
 # Resources #
 
-Introduction to the LF AI and Data Interoperability Initiative
-https://openvoicenetwork.org/interoperability-initiative/
+Introduction to the LF AI and Data Voice Interoperability Initiative
+https://voiceinteroperability.ai/
 
 LF AI & Data Foundation
 https://lfaidata.foundation/ 
