@@ -70,6 +70,27 @@ the floor and the examples to see how agents are wired together.
 let you build participants that speak them. `floor-implementations` provides
 the floor that connects participants and moves the conversation along.
 `implementation-examples` contains current open-source OFP agents that you can test in your own environment.
+```mermaid
+flowchart TB
+    Docs["<b>openfloor-docs</b><br/>The Open Floor Protocol specifications<br/>Conversation Envelope · Dialog Events · Assistant Manifest"]
+
+    subgraph Libs ["Libraries for building participants"]
+        Py["<b>openfloor-python</b><br/>Python"]
+        Js["<b>openfloor-js</b><br/>TypeScript"]
+    end
+
+    Examples["<b>implementation-examples</b><br/>Sample OFP agents and multi-agent teams<br/>cafeteria-ops · startup-strategy · agent-template · single agents"]
+
+    Floor["<b>floor-implementations</b><br/>Floor Manager — owns conversation and floor state<br/>and routes every event between participants<br/>(includes the web-floor gateway and browser UI)"]
+
+    User(["User / client app"])
+
+    Docs -->|"defines the message formats"| Libs
+    Libs -->|"used to build compliant agents"| Examples
+    Examples <-->|"OFP conversation envelopes"| Floor
+    User <-->|"one conversation, many agents"| Floor
+```
+
 For more information, see:
 
 [Resources](https://github.com/open-voice-interoperability/.github/blob/main/profile/resources.md)
